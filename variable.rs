@@ -20,5 +20,7 @@ fn main() {
     println!("{age} is an integer");
     println!("My name is {my_name}");
     println!("The first character in the alphabet is {_cha}");
-    println!("My account balance is {my_balance}");
+
+    // :? is for debug mode not for user
+    println!("My account balance is {my_balance:?}");
 }

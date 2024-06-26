@@ -20,3 +20,11 @@ fn main(){
 let _is_tall = false;
 ```
 
+- to output variable in rust use {variable name} eg
+```rs
+let age  = 45;
+let my_name = "I am Ade"
+
+println!("{:?}, I am  years {age} old", my_name, age)
+```
+
