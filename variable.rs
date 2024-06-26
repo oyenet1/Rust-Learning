@@ -4,6 +4,9 @@ fn main(){
     // integer
     let age = 16;
 
+    // string
+    let my_name = "Bowofade Oyerinde";
+
     // the print statement must be a string
-    println!("{age}");
+    println!("{age} is an integer");
 }
