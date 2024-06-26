@@ -28,3 +28,5 @@ let my_name = "I am Ade"
 println!("{:?}, I am  years {age} old", my_name, age)
 ```
 
+- No need to use parentheses in if statement
+
