@@ -1,3 +1,6 @@
+mod funct;
+
 fn main() {
-    println!("Hello, world!");
+    let ans = funct::add(256, 89);
+    println!("{ans}");
 }

@@ -1,6 +1,7 @@
 # Rust-Learning
 Learning Rust
-
+- To create new project always use
+ ` cargo init projectname`
 - Always use snake case when declaring variable in rust e.g 
 ```rs 
 let my_name = "Bowofade";
