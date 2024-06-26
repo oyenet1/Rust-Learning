@@ -9,4 +9,5 @@ fn main(){
 
     // the print statement must be a string
     println!("{age} is an integer");
+    println!("My name is {my_name}");
 }
