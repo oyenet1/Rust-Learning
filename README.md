@@ -13,3 +13,10 @@ fn main(){
     println!("Hello World!");
 }
 ```
+
+- An unused variable should be prepend with underscore
+
+```rs
+let _is_tall = false;
+```
+
