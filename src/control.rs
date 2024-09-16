@@ -5,7 +5,7 @@ fn main() {
     //     println!("Less than");
     // }
 
-    let age = 25;
+    let age = 21;
     // second if statement
     if age >= 25 && age <= 40 {
         println!("You are qualify to work with us");

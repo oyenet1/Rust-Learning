@@ -1,15 +1,23 @@
 # Rust-Learning
+
 Learning Rust
+
 - To create new project always use
- ` cargo init projectname`
-- Always use snake case when declaring variable in rust e.g 
-```rs 
+
+  ```
+
+  ```
+
+  ` cargo init projectname`
+- Always use snake case when declaring variable in rust e.g
+
+```rs
 let my_name = "Bowofade";
 ```
 
 - All rust code must be inside main function
 
-```rs 
+```rs
 fn main(){
     println!("Hello World!");
 }
@@ -22,6 +30,7 @@ let _is_tall = false;
 ```
 
 - to output variable in rust use {variable name} eg
+
 ```rs
 let age  = 45;
 let my_name = "I am Ade"
@@ -30,4 +39,3 @@ println!("{:?}, I am  years {age} old", my_name, age)
 ```
 
 - No need to use parentheses in if statement
-

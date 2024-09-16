@@ -11,20 +11,19 @@ fn main() {
     // }
 
     fn add_num(num: i32) -> i32 {
-        let mut init = 0;
+        let mut ans = 0;
         let mut count = 0;
 
         loop {
             if count == num {
                 break;
             }
-
             count += 1;
-            init += count;
+            ans += count;
         }
 
-        return init;
+        return ans;
     }
-    let res = add_num(4);
+    let res = add_num(5);
     println!("{res}");
 }
