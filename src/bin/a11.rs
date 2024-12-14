@@ -18,7 +18,13 @@ fn main() {
         id: 1,
         quantity: 34,
     };
+    let orange = GroceryItem {
+        id: 5,
+        quantity: 094,
+    };
 
     print_id(&apple);
     print_quantity(&apple);
+    print_id(&orange);
+    print_quantity(&orange);
 }
