@@ -1,21 +1,20 @@
 // Topic: Working with an enum
+enum Color {
+    Red,
+    Green,
+    Blue,
+}
 
-// Display "One", "Two", "Three" based on the value the person pass
+fn print_color(color: Color) {
+    match color {
+        Color::Red => println!("Red"),
+        Color::Green => println!("Green"),
+        Color::Blue => println!("Blue"),
+    }
+}
 
 fn main() {
-    enum Color {
-        Red,
-        Green,
-        Blue,
-    }
-
-    fn print_color(color: Color) {
-        match color {
-            Color::Red => println!("Red"),
-            Color::Green => println!("Green"),
-            Color::Blue => println!("Blue"),
-        }
-    }
-
     print_color(Color::Blue);
+    print_color(Color::Green);
+    print_color(Color::Red);
 }
